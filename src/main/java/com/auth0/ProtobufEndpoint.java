@@ -24,7 +24,7 @@ public class ProtobufEndpoint {
 
     @RequestMapping(path = "/protobuf/people", method= RequestMethod.POST, consumes = "application/x-protobuf")
     public void postPeopleProtobuf(@RequestBody People people) {
-        System.out.println(people.getPersonList().get(0).getName());
+        System.out.println(people.getPersonList().get(0).getName());//test2
     }
 
     @RequestMapping(path = "/json/people", method= RequestMethod.POST, consumes = "application/json")
