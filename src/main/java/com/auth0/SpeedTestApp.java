@@ -22,7 +22,7 @@ public class SpeedTestApp {
     }
 
     public static void main(String[] args) throws InvalidProtocolBufferException {
-        //comment added by master
+        //comment added by lkjf lkjfskd jlkfjslkfj
         final List<Person> peopleList = new ArrayList<>();
         for (int i = 0; i < 50000; i++) {
             final Address address1 = Address.newBuilder()
